@@ -1,0 +1,14 @@
+{
+  "name": "playwriteprojecttask",
+  "version": "1.0.0",
+  "description": "\"automation test with playwright and typescript\"",
+  "license": "ISC",
+  "author": "Volodymyr Fedchenko",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {},
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1"
+  }
+}
