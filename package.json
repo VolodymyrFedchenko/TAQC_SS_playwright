@@ -1,7 +1,7 @@
 {
-  "name": "playwriteprojecttask",
+  "name": "playwrightprojecttask",
   "version": "1.0.0",
-  "description": "\"automation test with playwright and typescript\"",
+  "description": "\"test automation with playwright and typescript\"",
   "license": "ISC",
   "author": "Volodymyr Fedchenko",
   "type": "commonjs",
