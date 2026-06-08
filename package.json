@@ -6,7 +6,10 @@
   "author": "Volodymyr Fedchenko",
   "type": "commonjs",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+     "clean:allure": "rimraf allure-results allure-report",
+      "test": "npm run clean:allure && playwright test"
+  },
   "devDependencies": {
     "@playwright/test": "^1.60.0",
     "@types/node": "^25.9.1",
