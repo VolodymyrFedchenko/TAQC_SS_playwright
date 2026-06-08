@@ -7,13 +7,14 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-     "clean:allure": "rimraf allure-results allure-report",
-      "test": "npm run clean:allure && playwright test"
+    "clean:allure": "rimraf allure-results allure-report",
+    "test": "npm run clean:allure && playwright test"
   },
   "devDependencies": {
     "@playwright/test": "^1.60.0",
     "@types/node": "^25.9.1",
-    "allure-playwright": "^3.9.0"
+    "allure-playwright": "^3.9.0",
+    "rimraf": "^6.1.3"
   },
   "dependencies": {
     "dotenv": "^17.4.2"
